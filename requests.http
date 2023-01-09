@@ -20,7 +20,7 @@ Content-Type: application/json
     "language": "French"
 }
 ###
-PUT http://localhost:5000/api/users/:id
+PUT http://localhost:5000/api/users/8
 Content-Type: application/json
 
 {
@@ -30,3 +30,5 @@ Content-Type: application/json
     "city": "France",
     "language": "French"
 }
+###
+DELETE http://localhost:5000/api/users/8
